@@ -1,0 +1,56 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: url(../images/useme.jpg);
+	background-size: cover;
+	text-align: center;
+	color: #8305FF;
+}
+
+h1 {
+	font-size: 5em;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 20px;
+}
+
+hr {
+	border-color: #8305FF;
+	margin-bottom: 20px;
+}
+
+#slogan {
+	font-size: 2em;
+	color: #FF69FF;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+p {
+	font-size: 1.25em;
+	color: #FF69FF;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+li {
+	list-style-type: none;
+	color: #FF69FF;
+	padding: 7px;
+	font-style: italic;
+}
+
+h4 {
+	color: #FF69FF;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #FF69FF;
+}
+
