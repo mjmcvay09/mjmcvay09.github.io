@@ -34,6 +34,7 @@ p {
 	color: #FF69FF;
 	margin-bottom: 20px;
 	padding: 20px;
+	font-family: arial;
 }
 
 li {
@@ -41,16 +42,19 @@ li {
 	color: #FF69FF;
 	padding: 7px;
 	font-style: italic;
+	font-family: arial;
 }
 
 h4 {
 	color: #FF69FF;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	font-family: arial;
 }
 
 a {
 	text-decoration: none;
+	font-family: arial;
 	color: #FF69FF;
 }
 
