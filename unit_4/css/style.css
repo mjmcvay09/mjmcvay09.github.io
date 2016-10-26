@@ -26,17 +26,6 @@ hr {
 	margin-bottom: 20px;
 }
 
-#slogan {
-	font-size: 1.75em;
-	color: gold;
-	margin-bottom: 20px;
-	padding: 20px;
-}
-
-#quote {
-	font-size: 1.5em;
-}
-
 p {
 	font-size: 1.25em;
 	color: gold;
@@ -64,5 +53,16 @@ a {
 	text-decoration: none;
 	font-family: 'roboto condensed', arial;
 	color: gold;
+}
+
+#slogan {
+	font-size: 1.75em;
+	color: gold;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+#quote {
+	font-size: 1.5em;
 }
 
