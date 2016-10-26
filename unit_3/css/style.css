@@ -29,6 +29,10 @@ hr {
 	padding: 20px;
 }
 
+#quote {
+	font-size: 4em;
+}
+
 p {
 	font-size: 1.25em;
 	color: #FF69FF;
