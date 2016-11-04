@@ -55,6 +55,7 @@ li {
 img {
 	width: 400px;
 	padding-top: 10px;
+	margin-left: 200px
 }
 
 article {
@@ -83,6 +84,7 @@ footer {
 	background-color: gold;
 	color: black;
   	height: 100px;
+  	padding-top: 10px;
 }
 
 .foot {
@@ -114,4 +116,8 @@ footer {
 
 #email {
   border: none;
+}
+
+a:hover {
+	background-color:white;
 }
