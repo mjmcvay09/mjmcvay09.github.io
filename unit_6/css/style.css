@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: grey;
+	background-size: cover;
+	text-align: center;
+	color: gold;
+}
+
+header {
+    border: 2px black solid;
+    background: url(../images/useme.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+nav {
+	margin: 20px;
+	padding: 20px;
+	height: 50px;
+	color: #4C044C;
+}
+
+h1 {
+	font-size: 5em;
+	font-family: 'pt serif', garamond;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+p {
+	font-size: 1.25em;
+	color: gold;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-family: 'roboto condensed', arial;
+}
+
+li {
+	list-style-type: none;
+	color: gold;
+	padding: 7px;
+	font-style: italic;
+	font-family: 'roboto condensed', arial;
+}
+
+img {
+	width: 400px;
+	padding-top: 10px;
+	margin-left: 200px
+	float: left;
+}
+
+article {
+	line-height: 1.5em;
+}
+
+h4 {
+	color: gold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'roboto condensed', arial;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'roboto condensed', arial;
+	color: gold;
+  	margin: 10px;
+  	padding: 10px;
+  	border: solid black 1px;
+}
+
+footer {
+	background-color: #A8870E;
+	color: black;
+  	height: 100px;
+  	padding: 10px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.foot {
+  color: black;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#wrapper {
+	background-color: #4C044C;
+	width: 800px;
+	margin: 0 auto;
+}
+
+#slogan {
+	font-size: 1.75em;
+	color: gold;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+#quote {
+	font-size: 1.5em;
+}
+
+#main {
+  background-color: #FFB7CF;
+  border: 1px black solid;
+  padding: 20px;    
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 60%;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 32%;
+}
+
+#email {
+  border: none;
+  margin-bottom: 3px;
+}
+
+a:hover {
+	background-color:white;
+}
