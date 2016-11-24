@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: grey;
+	background-size: cover;
+	text-align: center;
+	color: gold;
+	font-size: 16px;
+}
+
+header {
+    border: 2px black solid;
+    background: url(../images/useme.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+nav {
+	margin: 1.1em;
+	padding: 1.1em;
+	height: 3.1em;
+	color: #4C044C;
+}
+
+h1 {
+	font-size: 4em;
+	font-family: 'pt serif', garamond;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: .6em;
+}
+
+p {
+	font-size: 1.25em;
+	color: gold;
+	margin-bottom: .6em;
+	padding: .6em;
+	font-family: 'roboto condensed', arial;
+}
+
+li {
+	list-style-type: none;
+	color: gold;
+	padding: .5em;
+	font-style: italic;
+	font-family: 'roboto condensed', arial;
+}
+
+img {
+	width: 90%;
+	padding-top: .5em;
+	float: left;
+	margin-left: 1.5em;
+}
+
+article {
+	line-height: 1.5em;
+}
+
+h4 {
+	color: gold;
+	margin-top: .6em;
+	margin-bottom: .6em;
+	font-family: 'roboto condensed', arial;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'roboto condensed', arial;
+	color: gold;
+  	margin: .6em;
+  	padding: .6em;
+  	border: solid black 1px;
+}
+
+footer {
+	background-color: #A8870E;
+	color: black;
+  	height: 6.25em;
+  	padding: .6em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.foot {
+  color: black;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#wrapper {
+	background-color: #4C044C;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#slogan {
+	font-size: 1.75em;
+	color: gold;
+	margin-bottom: 1.2em;
+	padding: 1.2em;
+}
+
+#quote {
+	font-size: 1.5em;
+}
+
+#main {
+  background-color: #FFB7CF;
+  border: 1px black solid;
+  padding: 1.2em;    
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 1em;
+    float: left;
+    width: 60%;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 1.2em;
+    float: right;   
+    width: 38%;
+}
+
+#email {
+  border: none;
+  margin-bottom: 3px;
+}
+
+a:hover {
+	background-color:white;
+}
+
+@media only screen and (max-width: 1000px) {
+	#right {
+		float:none;
+		display: inline-block;
+		width: 100%;
+	}
+
+	#left {
+		float: none;
+		display: inline-block;
+		width: 100%;
+	}
+
+	img {
+		width: 90%;
+		float: none;
+		display: inline-block;
+		padding-right: 1em;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	h1 {
+		font-size: 3em;
+	}
+
+	nav {
+		margin: .5em;
+		padding: .5em;
+		height: .5em;
+	}
+
+	nav a {
+		float: left;
+		display: block;
+		padding: 1em
+		margin: 1em;
+	}
+
+	#slogan {
+		font-size: 1em;
+		margin-bottom: .5em;
+		padding: .5em;
+	}
+
+	#quote {
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 713px) {
+	h1 {
+		font-size: 2em;
+	}
+
+	li {
+		clear: both;
+	}
+
+	#wrapper {
+		width: 100%;
+	}
+
+	#slogan {
+		display: none;
+	}
+
+	#quote{
+        display: none;
+	}
+}
