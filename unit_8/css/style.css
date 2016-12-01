@@ -23,10 +23,11 @@ header {
 }
 
 nav {
-	margin: 1.1em;
+	margin: 0 auto;
 	padding: 1.1em;
 	height: 3.1em;
 	color: #4C044C;
+	text-align: center;
 }
 
 h1 {
@@ -177,15 +178,15 @@ a:hover {
 	}
 
 	nav {
-		margin: .5em;
-		padding: .5em;
+		margin: 0 auto;
+		padding-left: 2em;
 		height: .5em;
 	}
 
 	nav a {
 		float: left;
 		display: block;
-		padding: 1em
+		padding: 1em;
 		margin: 1em;
 	}
 
@@ -193,10 +194,12 @@ a:hover {
 		font-size: 1em;
 		margin-bottom: .5em;
 		padding: .5em;
+		clear: both;
 	}
 
 	#quote {
 		font-size: 1em;
+		clear: both;
 	}
 }
 
